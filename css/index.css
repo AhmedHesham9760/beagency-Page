@@ -1,0 +1,190 @@
+@font-face{
+    src: url("../fonts/NunitoSans-Bold.ttf");
+    font-family: "cutomFontBold";
+}
+@font-face{
+    src: url("../fonts/NunitoSans-Regular.ttf");
+    font-family: "regular";
+}
+
+nav{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.section1{
+    background-image: url("../images/agency4-home-splash\ \(1\).jpg");
+   
+    background-size:cover;
+    background-position: 50% 50%;
+    font-family: "cutomFontBold", Helvetica, Arial, sans-serif;
+}
+.section4{
+    background-image: url("../images/agency4-home-offer-bg.jpg");
+   
+    background-size:cover;
+    background-position: 50% 50%;
+    font-family: "cutomFontBold", Helvetica, Arial, sans-serif;
+    /* height: 100vh; */
+
+}
+
+.section6{
+    background-image: url("../images/agency4-home-newsletter-bg.jpg");
+   
+    background-size:cover;
+    background-position: 50% 50%;
+    font-family: "cutomFontBold", Helvetica, Arial, sans-serif;
+    /* height: 83vh; */
+    /* border: 2px solid red; */
+}
+.btnBorderRadius{
+    border-radius: 2rem;
+    width: 11%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.moreAboutUsButtom{
+    border-radius: 2rem;
+}
+.customButtonBorderRadius{
+    border-radius: 2rem;
+}
+.largMargin{
+    margin-top: 14rem;
+    
+}
+.fa-facebook,.fa-linkedin{
+    font-size: 2.8rem;
+}
+.section2 img{
+    filter: grayscale(100%);
+    transition: all 0.5 ease-in-out;
+}
+.section2 img:hover{
+    filter: grayscale(0%);
+}
+.simpleLine{
+    width: 4rem;
+}
+.simpleLine{
+    height: 1rem;
+}
+section div div img.card-img-top{
+    width: 40%;
+}
+section div div div.card{
+    align-items: center;
+    background-color: transparent;
+    color: white;
+}
+.customOffestPading{
+    padding-top: 6rem;
+}
+.iconNumberResults{
+    font-size: 3rem;
+}
+footer div div img{
+    width: 13rem;
+
+}
+@media only screen and (min-width: 320px){
+    header nav button.navbar-toggler{
+        border: none;
+        padding-right: 0px;
+    }
+    h1{
+        font-size: 1.8rem ;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+    button{
+        font-size: 0.8rem;
+    }
+    .section1 div div{
+        margin-bottom: 10rem;
+    }
+    .backgroundContact{
+        display: none;
+    }
+    .brandsmall{
+        width : 50%;
+    }
+
+}
+@media only screen and (min-width: 576px) {
+    header nav button.navbar-toggler{
+        border: 1px solid black;
+        border-radius: .25rem;
+        padding-right: 12px;
+    }
+    h1{
+        font-size: 2.2rem ;
+    }
+   
+    h2{
+        font-size: 1.6rem;
+    }
+    button{
+        font-size: 0.85rem;
+    }
+    .section1 div div{
+        margin-bottom: 10rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    h1{
+        font-size: 2.6rem ;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    button{
+        font-size: 0.9rem;
+    }
+    .section1 div div{
+        margin-bottom: 10rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1{
+        font-size: 3rem ;
+    }
+    h2{
+        font-size: 2.4rem;
+    }
+    button{
+        font-size: 0.95rem;
+    }
+    .section1 div div{
+        margin-bottom: 0rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    h1{
+        font-size: 3.5rem ;
+    }
+    h2{
+        font-size: 2.8rem;
+    }
+    p{
+        font-size: 1rem; ;
+    }
+    button{
+        font-size: 1rem;
+    }
+    .section1 div div{
+        margin-bottom: 0rem;
+    }
+    
+}
+
+
+
+
+
+
